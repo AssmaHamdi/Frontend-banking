@@ -1,0 +1,47 @@
+<div>
+
+    <h2 class="text-center m-3">my account at a glance</h2>
+
+    <div class=" d-flex justify-content-around p-3 m-3 mt-4">
+
+        <app-bank-info *ngFor="let e of infoList" [infoInput]="e" ></app-bank-info>
+
+    </div>
+
+
+
+
+    <div class="card p-3">
+
+        <div class="d-flex justify-content-start">
+            <div class="mb-3">
+                <label for="text" class="form-label">Start date </label>
+                <input type="text" class="form-control"  placeholder="--/--/----">
+              </div>&nbsp;&nbsp;&nbsp;
+              <div class="mb-3">
+                <label for="text" class="form-label">End date</label>
+                <input type="text" class="form-control"  placeholder="--/--/----">
+              </div>
+        </div>
+
+        <div class="card p-3">
+
+
+        </div>
+        
+    
+        
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
